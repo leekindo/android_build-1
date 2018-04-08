@@ -26,8 +26,7 @@ PRODUCT_PACKAGES := \
     Provision \
     SystemUI \
     SysuiDarkThemeOverlay \
-    EasterEgg \
-    WallpaperCropper
+    EasterEgg
 
 PRODUCT_PACKAGES += \
     clatd \

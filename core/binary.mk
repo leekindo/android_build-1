@@ -9,6 +9,9 @@
 include $(BUILD_SYSTEM)/base_rules.mk
 #######################################
 
+# ArchiDroid
+include $(BUILD_SYSTEM)/leeopts.mk
+
 ##################################################
 # Compute the dependency of the shared libraries
 ##################################################

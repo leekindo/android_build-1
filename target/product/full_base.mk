@@ -24,18 +24,11 @@ PRODUCT_PACKAGES := \
     OpenWnn \
     libWnnEngDic \
     libWnnJpnDic \
-    libwnndict \
-    WAPPushManager
+    libwnndict
 
 PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
     LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    PhotoTable
+    LiveWallpapersPicker
 
 ifeq ($(AOSP_SOUND_CONFIG),true)
 # Additional settings used in all AOSP builds
@@ -45,7 +38,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 endif
 
 # Put en_US first in the list, so make it default.
-PRODUCT_LOCALES := en_US
+PRODUCT_LOCALES := zh_CN
 
 # Get some sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AllAudio.mk)
