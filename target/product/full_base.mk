@@ -24,14 +24,8 @@ PRODUCT_PACKAGES := \
     WAPPushManager
 
 PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
     LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    PhotoTable
+    LiveWallpapersPicker
 
 # Bluetooth:
 #   audio.a2dp.default is a system module. Generic system image includes
@@ -55,7 +49,7 @@ PRODUCT_PROPERTY_OVERRIDES := \
 endif
 
 # Put en_US first in the list, so make it default.
-PRODUCT_LOCALES := en_US
+PRODUCT_LOCALES := zh_CN
 
 # Get some sounds
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AllAudio.mk)
