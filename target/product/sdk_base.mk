@@ -18,6 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES :=
 
 PRODUCT_PACKAGES := \
 	ApiDemos \
+	CellBroadcastReceiver \
 	CubeLiveWallpapers \
 	CustomLocale \
 	Development \
@@ -33,6 +34,7 @@ PRODUCT_PACKAGES := \
 	libWnnJpnDic \
 	LiveWallpapersPicker \
 	Mms \
+	Music \
 	OpenWnn \
 	Protips \
 	rild \

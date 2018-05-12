@@ -24,10 +24,18 @@ PRODUCT_PACKAGES := \
     OpenWnn \
     libWnnEngDic \
     libWnnJpnDic \
-    libwnndict
+    libwnndict \
+    WAPPushManager
 
-PRODUCT_PACKAGES += \
+ PRODUCT_PACKAGES += \
+    Galaxy4 \
+    HoloSpiralWallpaper \
     LiveWallpapers \
+    LiveWallpapersPicker \
+    MagicSmokeWallpapers \
+    NoiseField \
+    PhaseBeam \
+    PhotoTable
     LiveWallpapersPicker
 
 ifeq ($(AOSP_SOUND_CONFIG),true)
