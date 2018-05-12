@@ -36,7 +36,6 @@ PRODUCT_PACKAGES := \
     NoiseField \
     PhaseBeam \
     PhotoTable
-    LiveWallpapersPicker
 
 ifeq ($(AOSP_SOUND_CONFIG),true)
 # Additional settings used in all AOSP builds
