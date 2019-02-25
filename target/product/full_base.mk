@@ -20,8 +20,7 @@
 # in inherited configurations.
 
 PRODUCT_PACKAGES := \
-    libfwdlockengine \
-    WAPPushManager
+    libfwdlockengine
 
 PRODUCT_PACKAGES += \
     LiveWallpapers \
